@@ -1,6 +1,6 @@
 # [laravel-sitemap](http://roumen.me/projects/laravel-sitemap) bundle
 
-Simple sitemap generator for Laravel.
+A simple sitemap generator for Laravel.
 
 
 ## Installation
@@ -9,24 +9,15 @@ Install using the Artian CLI:
 
 	php artisan bundle:install sitemap
 
-then edit **application/bundles.php** to autoload messages:
+then edit ``application/bundles.php`` to autoload messages:
 
 ```php
-<?php
-
-return array(
-
-'sitemap' => array(
-	'auto' => true
-),
-
+'sitemap' => array('auto' => true)
 ```
 
 ## Example
 
-
 ```php
-
 Route::get('sitemap', function(){
 
     $sitemap = new Sitemap();
@@ -43,5 +34,4 @@ Route::get('sitemap', function(){
     return $sitemap->render();
     
 });
-
 ```

@@ -1,4 +1,8 @@
 <?php
+/**
+ * @name sitemap.php (part of laravel-sitemap)
+ * @author Roumen Damianoff <roumen@dawebs.com>
+ */
 
 class Sitemap
 {
