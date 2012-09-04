@@ -22,6 +22,7 @@ Route::get('sitemap', function(){
 
     $sitemap = new Sitemap();
 
+    // url, date, priority, freq
     $sitemap->add(URL::to(),'2012-08-25T20:10:00+02:00','1.0','daily');
     $sitemap->add(URL::to('page'),'2012-08-26T12:30:00+02:00','0.9','monthly');
 

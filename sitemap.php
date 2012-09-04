@@ -1,7 +1,11 @@
 <?php
 /**
- * @name sitemap.php (part of laravel-sitemap)
+ * Sitemap class for laravel-sitemap bundle.
+ * 
  * @author Roumen Damianoff <roumen@dawebs.com>
+ * @version 1.1
+ * @link https://github.com/RoumenMe/laravel-sitemap GitHub
+ * @license http://opensource.org/licenses/mit-license.php MIT License
  */
 
 class Sitemap
@@ -25,7 +29,7 @@ class Sitemap
 
 
     /**
-     * Returns xml document with all sitemap items from $records
+     * Returns xml document with all sitemap items from $records array
      */
     public function render()
     {
