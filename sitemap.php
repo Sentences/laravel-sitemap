@@ -33,8 +33,8 @@ class Sitemap
             'loc' => $loc,
             'lastmod' => $lastmod,
             'priority' => $priority,
-            'freq'=> $freq,
-            'title'=>$title
+            'freq' => $freq,
+            'title'=> $title
         );
     }
 
