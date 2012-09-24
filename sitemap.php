@@ -29,7 +29,7 @@ class Sitemap
      */
     public function add($loc, $lastmod = null, $priority = '0.50', $freq = 'monthly', $title = null)
     {
-        $this->records[] = array(
+        $this->items[] = array(
             'loc' => $loc,
             'lastmod' => $lastmod,
             'priority' => $priority,
